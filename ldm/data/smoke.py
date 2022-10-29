@@ -62,10 +62,10 @@ class SMOKEBASE(Dataset):
 
 class SMOKETrain(SMOKEBASE):
     def __init__(self, **kwargs):
-        super().__init__(txt_file="data/smoke/smoke_train.txt", data_root="/home/mateo/pyronear/latent-diffusion/data/smoke", **kwargs)
+        super().__init__(txt_file="data/smoke/smoke_train.txt", data_root="data/smoke", **kwargs)
 
 
 class SMOKEValidation(SMOKEBASE):
     def __init__(self, flip_p=0.0, **kwargs):
-        super().__init__(txt_file="data/smoke/smoke_val.txt", data_root="/home/mateo/pyronear/latent-diffusion/data/smoke",
+        super().__init__(txt_file="data/smoke/smoke_val.txt", data_root="data/smoke",
                          flip_p=flip_p, **kwargs)
