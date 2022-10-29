@@ -1,0 +1,5 @@
+outs:
+- md5: bfcb554cf2bd5107383d079d5902145d.dir
+  size: 318475823
+  nfiles: 5870
+  path: smoke
